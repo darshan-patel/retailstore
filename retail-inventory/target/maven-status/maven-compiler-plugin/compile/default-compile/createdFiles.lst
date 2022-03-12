@@ -1,0 +1,9 @@
+com/synechron/inventory/repository/InventoryRepository.class
+com/synechron/inventory/service/InventoryKafkaHandler.class
+com/synechron/inventory/controller/InventoryController.class
+com/synechron/inventory/entity/InventoryTransaction.class
+com/synechron/inventory/config/InventoryKafkaConfig.class
+com/synechron/inventory/main/InventoryApplication.class
+com/synechron/inventory/service/InventoryService.class
+com/synechron/inventory/repository/InventoryTransactionRepository.class
+com/synechron/inventory/entity/Inventory.class

@@ -1,0 +1,42 @@
+server:
+  port: 8080
+  
+token:
+  validator:
+    url: http://localhost:9090/users/validate
+#management:
+#  endpoint:
+#    gateway:
+#      enabled: true
+#  endpoints:
+#    web:
+#      exposure:
+#        include: gateway
+spring:
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      routes:
+      - id: retailOrder
+        uri: http://localhost:8081/
+        predicates:
+        - Path=/orders/**
+        filters:
+          - AuthFilter
+      - id: retailInventory
+        uri: http://localhost:8082/
+        predicates:
+        - Path=/inventories/**
+        filters:
+          - AuthFilter
+      - id: retailPayment
+        uri: http://localhost:8083/
+        predicates:
+        - Path=/balances/**
+        filters:
+          - AuthFilter
+      - id: retailUser
+        uri: http://localhost:9090/
+        predicates:
+        - Path=/users/**

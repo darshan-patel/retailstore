@@ -1,0 +1,6 @@
+com/synechron/gateway/filters/AuthFilter$Config.class
+com/synechron/gateway/config/WebClientConfig.class
+com/synechron/gateway/Exception/MissingAuthException.class
+com/synechron/gateway/filters/AuthFilter.class
+com/synechron/gateway/Exception/InvalidTokenStructureException.class
+com/synechron/gateway/main/GatewayApplication.class

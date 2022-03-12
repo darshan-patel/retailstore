@@ -1,0 +1,9 @@
+/home/darshan/dev/code/Synechron/retailstore/retail-inventory/src/main/java/com/synechron/inventory/main/InventoryApplication.java
+/home/darshan/dev/code/Synechron/retailstore/retail-inventory/src/main/java/com/synechron/inventory/service/InventoryKafkaHandler.java
+/home/darshan/dev/code/Synechron/retailstore/retail-inventory/src/main/java/com/synechron/inventory/service/InventoryService.java
+/home/darshan/dev/code/Synechron/retailstore/retail-inventory/src/main/java/com/synechron/inventory/config/InventoryKafkaConfig.java
+/home/darshan/dev/code/Synechron/retailstore/retail-inventory/src/main/java/com/synechron/inventory/entity/Inventory.java
+/home/darshan/dev/code/Synechron/retailstore/retail-inventory/src/main/java/com/synechron/inventory/controller/InventoryController.java
+/home/darshan/dev/code/Synechron/retailstore/retail-inventory/src/main/java/com/synechron/inventory/entity/InventoryTransaction.java
+/home/darshan/dev/code/Synechron/retailstore/retail-inventory/src/main/java/com/synechron/inventory/repository/InventoryTransactionRepository.java
+/home/darshan/dev/code/Synechron/retailstore/retail-inventory/src/main/java/com/synechron/inventory/repository/InventoryRepository.java
